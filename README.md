@@ -1,1 +1,1 @@
-# drivingJsDemo
+# driving-cars-javascript
