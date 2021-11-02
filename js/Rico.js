@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 let pimpEnabled = false;
 function logKey(e) {
-    if(e.code == "KeyD" && !pimpEnabled){
+    if(e.code == "KeyR" && !pimpEnabled){
         console.log(e.code);
         pimpEnabled = true;
         pimpMyRide();
@@ -23,7 +23,7 @@ function pimpMyRide(){
         style.innerHTML =
 	    '.container {' +
         'background-color: #0a0004;'+
-        'background-image: url("https://www.transparenttextures.com/patterns/leather.png");'+       
+        'background-image: url("https://images.pexels.com/photos/9395308/pexels-photo-9395308.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");'+       
 	    '}';
 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -39,4 +39,3 @@ function pimpMyRide(){
         new Audio("https://bigsoundbank.com/UPLOAD/mp3/0758.mp3").play();
     });
 }
-
