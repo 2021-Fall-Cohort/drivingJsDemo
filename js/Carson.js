@@ -23,7 +23,7 @@ function pimpMyRide(){
         style.innerHTML =
 	    '.container {' +
         'background-color: #0a0004;'+
-        'background-image: url("https://unsplash.com/photos/igsKbSVC5g0");'+       
+        'background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Image_skin_texture.jpg/1024px-Image_skin_texture.jpg");'+       
 	    '}';
 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
