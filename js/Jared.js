@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 let pimpEnabled = false;
 function logKey(e) {
-    if(e.code == "KeyD" && !pimpEnabled){
+    if(e.code == "KeyP" && !pimpEnabled){
         console.log(e.code);
         pimpEnabled = true;
         pimpMyRide();
@@ -23,7 +23,7 @@ function pimpMyRide(){
         style.innerHTML =
 	    '.container {' +
         'background-color: #0a0004;'+
-        'background-image: url("https://www.transparenttextures.com/patterns/leather.png");'+       
+        'background-image: url("http://www.vgmoz.com/wp-content/uploads/2015/08/2600rgb-pole-position-screenshot.jpg");'+       
 	    '}';
 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
