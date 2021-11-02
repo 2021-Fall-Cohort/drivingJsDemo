@@ -23,7 +23,7 @@ function pimpMyRide(){
         style.innerHTML =
 	    '.container {' +
         'background-color: #0a0004;'+
-        'background-image: url("https://www.transparenttextures.com/patterns/leather.png");'+       
+        'background-image: url("https://cdn1.mecum.com/auctions/fl0121/fl0121-444147/images/20-1602250081319.jpg?1609800220000");'+       
 	    '}';
 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
