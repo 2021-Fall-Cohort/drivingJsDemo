@@ -37,7 +37,7 @@ const updateCheckEngine = function(newCar){
     const checkEngine = document.querySelector(".dashboard__check-engine-light")
     checkEngine.classList.add('hidden');
     if(newCar.engineHealth < 80){
-        checkEngine.classList.toggle('hidden');
+        checkEngine.classList.toggle('hidden');  // calling action on all claases belonging to this html element (this one is initaily hidden untin its ran)
         body.dispatchEvent(warnEvent);
     }
 }
